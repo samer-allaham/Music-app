@@ -1,0 +1,15 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+margin-bottom: 1.5em;
+
+}
+body{
+    background-color: #4e4e4e;
+}
