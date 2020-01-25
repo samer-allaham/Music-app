@@ -1,30 +1,19 @@
 {
-  "name": "music-app",
-  "version": "0.0.1",
-  "description": "first-trial",
-  "main": "server.js",
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "Small side Project in Nodejs ,Express,Angular,Mongo",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Music-strike/Music-app.git"
-  },
-  "author": "",
+  "author": "PrajwalBhati",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Music-strike/Music-app/issues"
-  },
-  "homepage": "https://github.com/Music-strike/Music-app#readme",
   "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^8.2.0",
-    "ejs": "^3.0.1",
-    "express": "^4.17.1",
-    "pg": "^7.17.1",
-    "request": "^2.88.0",
-    "superagent": "^5.2.1"
-  },
-  "devDependencies": {}
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "ejs": "^2.7.4",
+    "express": "^4.16.2",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.5"
+  }
 }
